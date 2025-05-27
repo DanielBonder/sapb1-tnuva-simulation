@@ -1,6 +1,6 @@
 # SAP Business One – Tnuva Simulation Project
 
-This academic project demonstrates the use of **SAP Business One (SAP B1)** to simulate core business processes of a major food company, using **Tnuva** as a case study. The project was completed as part of an Information Systems course and showcases practical experience with ERP process flows.
+This academic project demonstrates the use of **SAP Business One (SAP B1)** to simulate core business processes of a major food company, using **Tnuva** as a case study. The project was completed as part of an Information Systems course at **Tel-Hai College**, and showcases practical experience with ERP process flows.
 
 ## 📦 Project Contents
 
@@ -41,7 +41,7 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/daniel-bonder1
 
 ## ⚠️ Disclaimer – Fair Use Statement
 
-This project was created strictly for **academic and educational purposes** as part of a university course in Information Systems.  
+This project was created strictly for **academic and educational purposes** as part of an Information Systems course at **Tel-Hai College**.  
 It is not affiliated with, endorsed by, or officially connected to **Tnuva** or **SAP**.  
 References to company names or processes are used for simulation and demonstration only.  
 Any potentially copyrighted material has been either removed, reworded, or used under fair use for educational purposes.
