@@ -36,3 +36,12 @@ This academic project demonstrates the use of **SAP Business One (SAP B1)** to s
 ## 🔗 Contact
 
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/daniel-bonder1/) to learn more or discuss the project.
+
+---
+
+## ⚠️ Disclaimer – Fair Use Statement
+
+This project was created strictly for **academic and educational purposes** as part of a university course in Information Systems.  
+It is not affiliated with, endorsed by, or officially connected to **Tnuva** or **SAP**.  
+References to company names or processes are used for simulation and demonstration only.  
+Any potentially copyrighted material has been either removed, reworded, or used under fair use for educational purposes.
