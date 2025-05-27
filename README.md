@@ -27,7 +27,6 @@ This academic project demonstrates the use of **SAP Business One (SAP B1)** to s
 
 - `Tnuva_Presentation.pptx` – full animated presentation
 - `Tnuva_Presentation.pdf` – static version for preview
-- Optional: Screenshots of SAP workflow steps (add if needed)
 
 ## 💡 Notes
 
@@ -36,4 +35,4 @@ This academic project demonstrates the use of **SAP Business One (SAP B1)** to s
 
 ## 🔗 Contact
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com) to learn more or discuss the project.
+Feel free to reach out via [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/daniel-bonder1/)) to learn more or discuss the project.
