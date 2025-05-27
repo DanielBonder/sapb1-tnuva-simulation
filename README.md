@@ -35,4 +35,4 @@ This academic project demonstrates the use of **SAP Business One (SAP B1)** to s
 
 ## 🔗 Contact
 
-Feel free to reach out via [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/daniel-bonder1/)) to learn more or discuss the project.
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/daniel-bonder1/) to learn more or discuss the project.
