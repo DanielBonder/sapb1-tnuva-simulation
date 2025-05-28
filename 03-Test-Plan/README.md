@@ -1,61 +1,68 @@
-# ✅ERP Test Plan for Payroll and Attendance Process
+# ✅ ERP Test Plan for Payroll and Purchasing Processes
 
-This exercise presents a structured **test plan** for the payroll and attendance business process modeled in the previous assignment. The goal is to identify process instances, test both normative and exceptional flows, and define expected system behavior.
+This assignment presents a detailed **test plan** for verifying ERP system behavior in two core business processes at **Tnuva**:  
+**1. Employee Time and Payroll Management**  
+**2. Procurement and Purchasing Approval**
+
+---
 
 ## 🎯 Objective
-To simulate real-world scenarios in which the ERP system must handle:
-- Accurate employee time reporting
-- Payroll calculation and payslip generation
-- Detection and correction of anomalies (e.g., overreporting work hours)
+
+To define and validate realistic test scenarios for ERP implementation using structured system testing, based on previously modeled business processes (BPMN & EPC).  
+The test plan includes:
+- Normal operational flows (positive test cases)
+- Edge and error cases (negative test cases)
+- Expected system behavior and validations
 
 ---
 
-## 🔍 Process Under Test
-**Employee Time and Payroll Management**
+## 🔍 Tested Processes
 
-Modeled using:
-- BPMN diagram (business-level flow)
-- EPC diagram (detailed entity and system interaction)
+### 🧾 1. Payroll and Attendance Reporting
+- Clock-in/out tracking
+- Verification of legitimate hours
+- Payslip calculation including bonuses and deductions
+- System alerts for anomalies (e.g., >24 hours workday)
+- Audit logging and data correction flows
+
+### 🛒 2. Procurement Request and Approval
+- Employee submits request based on working hours
+- Approval and calculation of procurement totals
+- Validation of items, pricing, and payment terms
+- System updates with procurement documents
 
 ---
 
-## 🧪 Test Scenarios
+## 🧪 Sample Test Scenarios
 
-### ✔️ Normal Flow – Valid Shift Reporting
-1. Employee clocks in/out normally
-2. System calculates regular and overtime hours
-3. Payslip is generated without errors
-4. Database updates successfully
-
-### ⚠️ Exception Flow – Invalid Time Report (e.g., 25 hours/day)
-1. Employee mistakenly clocks in twice
-2. System flags inconsistency
-3. User or manager corrects data
-4. Updated payslip is generated
-5. System logs the correction for audit
+| Type       | Description                                       |
+|------------|---------------------------------------------------|
+| ✔️ Positive | Employee reports shift correctly, payslip generated |
+| ⚠️ Negative | Overreporting hours → system flags and prompts correction |
+| ✔️ Positive | Procurement request approved with valid items    |
+| ⚠️ Negative | Invalid shift → procurement rejected automatically |
 
 Each scenario includes:
-- Trigger event  
-- System response  
-- Expected outcome  
-- Data changes and validations
+- Input conditions  
+- Triggering events  
+- Expected system response  
+- Verification of data in the database  
 
 ---
 
-## 📄 Included Files
+## 📄 Included File
 
-| File Name                | Description                                     |
-|--------------------------|-------------------------------------------------|
-| `תוכנית בדיקות.pdf`     | Final test plan in PDF format                   |
-| `bpmn.pdf`               | BPMN diagram used in the test plan              |
-| `EPC.pdf`                | EPC diagram used in the test plan               |
+| File Name                   | Description                             |
+|----------------------------|-----------------------------------------|
+| `ERP_Tnuva_Test_Plan.pdf`  | Full ERP test plan document in Hebrew   |
 
 ---
 
 ## 🧠 Authors
+
 Daniel Bonder, Yossi Chen-Baadash  
 Tel-Hai College, 2024
 
 ---
 
-> 📌 This test plan simulates real ERP usage scenarios and forms the basis for validating system behavior before go-live.
+> 📌 This test plan serves as a foundation for validating ERP workflows and ensuring system reliability under various scenarios prior to go-live.
