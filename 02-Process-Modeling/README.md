@@ -1,57 +1,65 @@
-
 # 🔄 Business Process Modeling for Tnuva
 
-This exercise focuses on mapping key business processes at **Tnuva** using two standard modeling approaches: **BPMN** and **EPC**.
+This exercise focuses on modeling two central business processes at **Tnuva**, using the industry standards **BPMN** and **EPC**. These models support the ERP design and validation process in the SAP Business One simulation project.
+
+---
 
 ## 🎯 Objective
-To visually represent two critical business processes using:
-- **BPMN (Business Process Model and Notation)** – suitable for high-level, standardized process flow
-- **EPC (Event-driven Process Chain)** – suitable for detailed operational mapping including entities, inputs, outputs, and system/manual distinction
 
-These diagrams reflect realistic ERP-driven workflows and serve as a foundation for system design and testing in later exercises.
+To provide visual representations of operational workflows for:
+- **Business clarity** and documentation
+- **ERP implementation readiness**
+- **Future test planning and automation mapping**
 
 ---
 
 ## 🧩 Processes Modeled
 
-### 1. Employee Time and Payroll Management *(BPMN)*
-- Employee entry into system
-- Shift attendance logging
-- Payroll calculation with overtime, deductions, and bonuses
-- Payslip generation
+### 1. 🕒 Employee Time & Payroll Management *(BPMN)*
 
-**Key Features:**
-- Integration of human tasks and automated steps
-- Use of XOR and AND gateways
-- Database interactions for employee contracts and attendance
-
-### 2. Supply Chain and Manufacturing *(EPC)*
-- Customer order receipt
-- Procurement and inventory management
-- Production, quality control, and shipping
-- Reporting and compliance
+This process models the employee's full interaction with the attendance and payroll systems—from registration to payslip delivery.
 
 **Key Elements:**
-- Distinction between manual vs. automated tasks
-- Identified organizational units
-- Inputs, outputs, and constraints
+- Employee registration and contract classification (Type A/B)
+- Attendance tracking (entry, shift activities, exit)
+- Daily hour reporting and monthly summary
+- Payroll calculation: base hours, overtime, deductions, bonuses
+- Payslip generation and delivery
+- Use of **AND/XOR gateways** and data interactions with the database
+
+📎 File: `bpmn.pdf`
+
+---
+
+### 2. 📦 Supply Chain & Manufacturing *(EPC)*
+
+A structured process flow based on **Event-driven Process Chain (EPC)**, covering order-to-delivery operations.
+
+**Stages Include:**
+- Order reception
+- Material procurement and stock check
+- Production and quality assurance
+- Packaging and distribution
+- Reporting and legal compliance
+
+📎 File: `EPC.pdf`
 
 ---
 
 ## 📄 Included Files
 
-| File Name                     | Description                             |
-|------------------------------|-----------------------------------------|
-| `ERP - bpmn.pdf`             | BPMN diagram of the payroll process     |
-| `עבודה אחרי תיקונים.pdf`    | EPC diagram of the supply chain process |
-| `תרגיל כיתה 2.docx`         | Original assignment instructions        |
+| File Name      | Description                                      |
+|----------------|--------------------------------------------------|
+| `bpmn.pdf`     | BPMN diagram of Employee Time & Payroll Process |
+| `EPC.pdf`      | EPC diagram of Supply Chain Process             |
 
 ---
 
 ## 🧠 Authors
+
 Daniel Bonder, Yossi Chen-Baadash  
 Tel-Hai College, 2024
 
 ---
 
-> 📌 These process models provide the blueprint for future simulation and testing phases in the ERP project for Tnuva.
+> 📌 These process diagrams are used in later stages for test scenario creation and system validation, aligning with SAP Business One ERP implementation strategies.
