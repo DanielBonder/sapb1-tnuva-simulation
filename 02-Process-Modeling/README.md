@@ -1,5 +1,5 @@
 
-# 🔄Business Process Modeling for Tnuva
+# 🔄 Business Process Modeling for Tnuva
 
 This exercise focuses on mapping key business processes at **Tnuva** using two standard modeling approaches: **BPMN** and **EPC**.
 
